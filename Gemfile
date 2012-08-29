@@ -17,10 +17,10 @@ group :assets do
   gem 'coffee-rails', '~> 3.2.1'
 
 
-#group :production do
-# gems specifically -- Heroku
-#gem "pg"
-#end
+group :production do
+#gems specifically -- Heroku
+gem "pg"
+end
 
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
